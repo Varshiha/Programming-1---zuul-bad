@@ -56,7 +56,7 @@ public class Room
         return exits.get(direction);
     }
     public String getLongDescription(){
-        return "You are" + description + ".\n" + getExitString();
+        return "You are " + description + ".\n" + getExitString();
     }
     public String getExitString(){
         String exitString = "Exits:"; //Starts string with "Exits:"
